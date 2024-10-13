@@ -2,9 +2,8 @@
 ## Week 4
 ### Assignment: Complete Python code for judging if a number is 'happy' or not
 __unordered list__ (*,+,-)
-* Link to Repository
-###Insert URL
-
+* Link to Repository \
+<pre> <code> https://github.com/ChaeheonLee/SWE_2021_41_2024_2_week_4 </code> </pre>
 
 + Code Description
 ```python
