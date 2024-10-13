@@ -111,6 +111,7 @@ def isHappy(n):
 > Result:
 > 
 >> ```go
+>> // this is a merged version, they did not actually come out like this
 >> git version 2.43.0
 >> Python 3.12.3
 >> [ossp_host_dir:/mnt/ossp_container_dir]
@@ -118,7 +119,7 @@ def isHappy(n):
 >
 > The first part is the host directory, second is container directory. The host directory was created and mounted beforehand.
 >
-> And lastly, check version of Linux OS currently being used
+> And lastly, checking the version of Linux currently being used
 >> ```go
 >> docker exec ossp-container cat /etc/os-release
 >> ```
