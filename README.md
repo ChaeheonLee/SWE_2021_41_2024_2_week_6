@@ -1,6 +1,12 @@
 # SWE_2021_41_2024_2_week_6
 ## Week 4
 ### Assignment: Complete Python code for judging if a number is 'happy' or not
+__unordered list__ (*,+,-)
+* Link to Repository
+###Insert URL
+
+
++ Code Description
 ```python
 def isHappy(n):
   if n == 1 or n == 7:                # both numbers which are happy numbers
