@@ -26,7 +26,7 @@ The basic assumption here is that at some point, all numbers passed through the 
 > $4^2$ + $2^2$ = 20  
 > $2^2$ + $0^2$ = 4
 
-It might be that this assumption is only applicable because of the constraint on n, which is that 0 < n < $2^{32}$-1.
+(It might be that this assumption is only applicable because of the constraint on n, which is that 0 < n < $2^{32}$-1)
 <br>
 <br>
 In any case, the only happy numbers out of 1 ~ 9 are 1 and 7. Which means for n < 10, if n is not 1 or 7, then it can be thrown out as a non-happy number straight away.
