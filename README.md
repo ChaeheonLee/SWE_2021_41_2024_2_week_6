@@ -46,7 +46,7 @@ Here, n is converted into strings, then listed again after being re-converted to
 __Third Part__
 
 > ```python
-> #indents preserved
+> #indents preserved, comment edited slightly
 >   while(1):
 >    sq = 0
 >    for i in num:
@@ -89,4 +89,39 @@ def isHappy(n):
 
 ## Week 5
 ### Assignment: Basic Docker Setup
+> * Line-by-Line
+>   
+> Check Git version installed in container named 'ossp-container'
+>> ```go
+>> docker exec ossp-container git --version
+>> ```
+>
+> Check version of Python 3 installed in 'ossp-container'
+> 
+>> ```go
+>> docker exec ossp-container python3 --version
+>> ```
+>
+> Print path of host directory mounted in 'ossp-container'
+> 
+>> ```go
+>> docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
+>> ```
+>
+> Result:
+> 
+>> ```go
+>> git version 2.43.0
+>> Python 3.12.3
+>> [ossp_host_dir:/mnt/ossp_container_dir]
+>> ```
+>
+> The first part is the host directory, second is container directory. The host directory was created and mounted beforehand.
+>
+> And lastly, check version of Linux OS currently being used
+>> ```go
+>> docker exec ossp-container cat /etc/os-release
+>> ```
+> Result is not reproduced here because it is too long.
+> ![Docker Env. Screenshot](./figure/OSSP_wk5 assignment_2019312097)
 
