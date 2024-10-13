@@ -67,7 +67,7 @@ However if it *is* 1 or 7, then this is a happy number! We celebrate by returnin
 <br>
 <br>
 <br>
-* Full Code
+* Complete Code
 ```python
 def isHappy(n):
   if n == 1 or n == 7:                # both numbers which are happy numbers
@@ -124,5 +124,9 @@ def isHappy(n):
 >> docker exec ossp-container cat /etc/os-release
 >> ```
 > Result is not reproduced here because it is too long.
-> ![Docker Env. Screenshot](./figure/OSSP_wk5 assignment_2019312097)
+>
+> Screenshots of complete process:
+>> <img src="./figure//OSSP_wk5_2019312097.png" width="500px" title="week 5 submission">
+> .
 
+##### <u> THANK YOU FOR READING!!! 😄 </u>
