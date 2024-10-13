@@ -39,7 +39,7 @@ __Second Part__
 > #indent preserved
 > num = list(map(int, str(n)))        # map all digits in number to list
 > ```
-Here, n is converted into strings, then listed again after being re-converted to integers. Which has the effect of seperating the number into seperate digits. Therefor, num is a list of intergers with each element being a digit of n.
+Here, n is converted into strings, then listed again after being re-converted to integers. This has the effect of seperating the number into seperate digits. Therefore, num is a list of intergers, with each element being a digit of n.
 <br>
 <br>
 <br>
