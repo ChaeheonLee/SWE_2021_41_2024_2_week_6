@@ -117,7 +117,7 @@ def isHappy(n):
 >> [ossp_host_dir:/mnt/ossp_container_dir]
 >> ```
 >
-> The first part of line 3 is the host directory, followed by the container directory. The host directory was created and mounted beforehand.
+> The first part of result #3 is the host directory, followed by the container directory. The host directory was created and mounted beforehand.
 >
 > And lastly, checking the version of Linux currently being used
 >> ```go
